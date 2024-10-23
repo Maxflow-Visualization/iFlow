@@ -414,38 +414,4 @@ class FlowNetwork {
     }
     return "";
   }
-
-  // findMaxFlowFulkerson (paths) {
-  //   paths = paths || [];
-  //   let maxFlow = 0;
-  //   let parent = {};
-  //   console.log("here");
-  //   while (this.bfs(parent)) {
-  //     let flow = Number.MAX_VALUE;
-  //     let curr = this.sink;
-  //     let path = [];
-  //     while (curr != this.source) {
-  //       path.push(curr);
-  //       let prev = parent[curr];
-  //       flow = Math.min(flow, this.graph[prev][curr].flow);
-  //       curr = prev;
-  //     }
-  //     path.push(this.source);
-  //     paths.push({
-  //       nodes: path.reverse(),
-  //       flow: flow
-  //     });
-
-  //     curr = this.sink;
-  //     while (curr != this.source) {
-  //       prev = parent[curr];
-  //       this.graph[prev][curr].flow -= flow;
-  //       this.graph[curr][prev].flow += flow;
-  //       curr = prev;
-  //     }
-
-  //     maxFlow += flow;
-  //   }
-  //   return maxFlow;
-  // };
 }
