@@ -1,4 +1,4 @@
-# Maxflow_Visualization
+# iFlow
 
 iFlow is an interactive visualizer for the famous [Maximum Flow](https://en.wikipedia.org/wiki/Maximum_flow_problem) and [Minimum Cut](https://en.wikipedia.org/wiki/Minimum_cut) problems. More specifically, it visualizes three algorithms based on augmenting path:
 - [The Ford-Fulkerson Algorithm](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm)
@@ -6,16 +6,16 @@ iFlow is an interactive visualizer for the famous [Maximum Flow](https://en.wiki
 - Their Widest Path Heuristic Version
 
 There are already a few visualizers for the Max-Flow Min-Cut problem, unlike existing visualizations, iFlow is:
-- Interactive: users are not only "shown" the execution of algorithms, but they get to select their own augmenting path, choose their own flow amount to apply on that path, and complete their own residual graph
-- Designed to facilitate learning❤️:
+- **Interactive**: users are not only "shown" the execution of algorithms, but they get to select their own augmenting path, choose their own flow amount to apply on that path, and complete their own residual graph
+- **Designed to facilitate learning**❤️:
   - Narrative, context-sensitive explanations
   - Detailed feedback when users make mistakes
   - The option to automatically complete each step, to be used as a non-interactive visualizer when users do not understand the concepts too well yet and to accelerate the visualization so that users can focus on other steps when they are already familiar
-- Capable of visualizing Min-Cut, again both interactively and automatically
-- Convenient: buttons to toggle current flow/original capacity, change layout, download and upload graph, and restart with the same graph
-- Empirically tested
+- **Capable of visualizing Min-Cut**, again both interactively and automatically
+- **Convenient**: buttons to toggle current flow/original capacity, change layout, download and upload graph, and restart with the same graph
+- **Empirically tested to be effective**
 
-TODO: Add origin
+*iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. TODO*
 
 ## Examples:
 TODO
