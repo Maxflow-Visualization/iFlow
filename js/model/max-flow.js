@@ -296,17 +296,6 @@ class FlowNetwork {
     return res;
   }
 
-  // deepCopyGraph(graph) {
-  //   let copy = new Map();
-  //   for (const [source, neighborsMap] of graph) {
-  //     copy.set(source, new Map());
-  //     for (const [neighbor, edge] of neighborsMap) {
-  //       copy.get(source).set(neighbor, new Edge(edge.source, edge.target, edge.capacity, edge.flow));
-  //     }
-  //   }
-  //   return copy;
-  // }
-
   addFlow(path, flow, doUpdate) {
     let expectedGraph = _.cloneDeep(this.graph);
     for (const edge of path) {
