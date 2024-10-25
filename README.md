@@ -17,7 +17,7 @@ There are already a few visualizers for the Max-Flow Min-Cut problem, unlike exi
 
 *iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. TODO*
 
-## Examples:
+## Examples
 TODO
 
 ## Acknowledgments
