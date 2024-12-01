@@ -1,6 +1,6 @@
 # iFlow
 
-iFlow is an interactive visualizer for the famous [Maximum Flow](https://en.wikipedia.org/wiki/Maximum_flow_problem) and [Minimum Cut](https://en.wikipedia.org/wiki/Minimum_cut) problems. More specifically, it visualizes three algorithms based on augmenting path:
+[iFlow](https://maxflow-visualization.github.io/iFlow/) is an interactive visualizer for the famous [Maximum Flow](https://en.wikipedia.org/wiki/Maximum_flow_problem) and [Minimum Cut](https://en.wikipedia.org/wiki/Minimum_cut) problems. More specifically, it visualizes three algorithms based on augmenting path:
 - [The Ford-Fulkerson Algorithm](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm)
 - [The Edmonds-Karp Algorithm](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm)
 - Their Widest Path Heuristic Version
