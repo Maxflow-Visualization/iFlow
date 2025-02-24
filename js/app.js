@@ -307,11 +307,6 @@ $(function () {
     event.preventDefault();
     // proceed to algorithm practice
     if (inGraphCreation()) {
-      // reduce graph block's size, show finalization block
-      $("#graph-block").addClass("col-lg-8").removeClass("col-lg-10");
-      $("#finalization-block").css("display", "block");
-      resizeAndCenterAccordingToCurrentGraphBlock();
-      
       source = $("#source").text();
       source = source.substring(source.indexOf("=") + 1);
       sink = $("#sink").text();
@@ -333,8 +328,13 @@ $(function () {
       }
       highlightSourceAndSink();
 
+      // diasble edge creation by dragging
       cy.edgehandles("disable");
 
+      // reduce graph block's size, show finalization block
+      $("#graph-block").addClass("col-lg-8").removeClass("col-lg-10");
+      $("#finalization-block").css("display", "block");
+      resizeAndCenterAccordingToCurrentGraphBlock();
 
       hideElementAndItsChildren(".buttons");
       state = states[stateIndex];
