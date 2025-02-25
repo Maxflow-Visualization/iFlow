@@ -61,7 +61,7 @@ $(function () {
     "<li>In this step, you will update the residual graph by editing edges according to the flow you decided.</li><li>Click an existing edge and then press <code>Backspace</code> or <code>Delete</code> (<code>fn</code> + <code>Delete</code> on Mac) to delete that edge.</li><li>Right click an edge to change its capacity.</li><li>You can automatically complete the residual graph by clicking <code>Auto Complete</code>.</li><li>If you forget the original graph before applying change, you can undo all your steps by clicking <code>Undo All Updates</code>.</li><li>When you are done, click <code>Confirm Residual Graph</code>.</li>";
 
   source = "1";
-  sink = "8";
+  sink = "5";
   highlightSourceAndSink();
 
   var defaults = {

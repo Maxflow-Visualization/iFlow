@@ -72,31 +72,22 @@ function createExampleGraph(e) {
   $("#clear").triggerHandler("click");
   e.preventDefault();
   $("#source").text("Source=1");
-  $("#sink").text("Sink=8");
+  $("#sink").text("Sink=5");
   var nodes = [
-    { id: 1, name: 1, x: 150, y: 240 },
-    { id: 2, name: 2, x: 300, y: 150 },
-    { id: 3, name: 3, x: 300, y: 330 },
-    { id: 4, name: 4, x: 450, y: 150 },
-    { id: 5, name: 5, x: 450, y: 330 },
-    { id: 6, name: 6, x: 600, y: 150 },
-    { id: 7, name: 7, x: 600, y: 330 },
-    { id: 8, name: 8, x: 750, y: 240 },
+    { id: 1, name: 1, x: 680, y: 80 },
+    { id: 2, name: 2, x: 153, y: 252 },
+    { id: 3, name: 3, x: 1261, y: 251 },
+    { id: 4, name: 4, x: 337, y: 680 },
+    { id: 5, name: 5, x: 1059, y: 683 },
   ];
   var edges = [
-    { id: "1-2", label: 6, source: 1, target: 2 },
-    { id: "1-3", label: 6, source: 1, target: 3 },
-    { id: "2-4", label: 4, source: 2, target: 4 },
-    { id: "2-5", label: 2, source: 2, target: 5 },
-    { id: "3-2", label: 5, source: 3, target: 2 },
-    { id: "3-5", label: 9, source: 3, target: 5 },
-    { id: "4-2", label: 7, source: 4, target: 7 },
-    { id: "4-6", label: 4, source: 4, target: 6 },
-    { id: "5-4", label: 8, source: 5, target: 4 },
-    { id: "5-7", label: 7, source: 5, target: 7 },
-    { id: "6-8", label: 7, source: 6, target: 8 },
-    { id: "7-6", label: 11, source: 7, target: 6 },
-    { id: "7-8", label: 4, source: 7, target: 8 },
+    { id: "1-2", label: 3, source: 1, target: 2 },
+    { id: "1-3", label: 3, source: 1, target: 3 },
+    { id: "2-3", label: 1, source: 2, target: 3 },
+    { id: "2-4", label: 2, source: 2, target: 4 },
+    { id: "2-5", label: 1, source: 2, target: 5 },
+    { id: "3-5", label: 2, source: 3, target: 5 },
+    { id: "4-5", label: 2, source: 4, target: 5 },
   ];
   nodes.forEach(function (node) {
     addNode(cy, node.id, node.name, node.x, node.y);
