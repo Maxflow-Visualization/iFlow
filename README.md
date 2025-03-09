@@ -15,7 +15,7 @@ There are already a few visualizers for the Max-Flow Min-Cut problem, unlike exi
 - **Convenient**: buttons to toggle current flow/original capacity, change layout, download and upload graph, and restart with the same graph
 - **Empirically tested to be effective**
 
-*iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. It was qualitatively proved to be engaging and useful. Non-trivial revisions were made after the course, to further refine iFlow. For more information such as evidence and design philosophy, please refer to the [paper](https://dl.acm.org/doi/10.1145/3641554.3701869)*
+*iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. It was qualitatively proved to be engaging and useful. Non-trivial revisions were made after the course, to further refine iFlow. For more information such as evidence and design philosophy, please refer to the [**paper**](https://dl.acm.org/doi/10.1145/3641554.3701869)*
 
 ## Examples
 User creating a flow network:
