@@ -15,7 +15,7 @@ There are already a few visualizers for the Max-Flow Min-Cut problem, unlike exi
 - **Convenient**: buttons to toggle current flow/original capacity, change layout, download and upload graph, and restart with the same graph
 - **Empirically tested to be effective**
 
-*iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. It was qualitatively proved to be engaging and useful. Non-trivial revisions were made after the course, to further refine iFlow. For more information such as evidence and design philosophy, please refer to the paper in the **Cite** section.*
+*iFlow was originally developed at the University of Southern California to assist students in an undergraduate algorithms course with ~150 enrollments. It was qualitatively proved to be engaging and useful. Non-trivial revisions were made after the course, to further refine iFlow. For more information such as evidence and design philosophy, please refer to the [paper](https://dl.acm.org/doi/10.1145/3641554.3701869)*
 
 ## Examples
 User creating a flow network:
@@ -37,7 +37,22 @@ User validating the selected min-cut and shown a detailed error message:
 The initial styling and the choice of Cytoscape framework were inspired by [isabek.github.io](https://github.com/isabek/isabek.github.io). We have kept the same vertical layout and Cytoscape's settings for node size, node color, edge size, and edge color. We thank the author for open-sourcing his code.
 
 ## Cite
-To appear in SIGCSE.
+```
+@inproceedings{10.1145/3641554.3701869,
+author = {Ye, Muyang and Xia, Tianrui and Zu, Tianxin and Wang, Qian and Kempe, David},
+title = {iFlow - An Interactive Max-Flow Min-Cut Algorithms Visualizer},
+year = {2025},
+isbn = {9798400705311},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3641554.3701869},
+doi = {10.1145/3641554.3701869},
+booktitle = {Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1},
+pages = {1288–1294},
+location = {Pittsburgh, PA, USA},
+series = {SIGCSETS 2025}
+}
+```
 
 ## Contact
 For questions, bugs, or feature requests, please use the [Github Issues page](https://github.com/Maxflow-Visualization/iFlow/issues). Otherwise, contact the [iFlow Team](mailto:ymy@apache.org).
